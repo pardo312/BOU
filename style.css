@@ -447,10 +447,10 @@ html {
   position: relative;
   min-height: 600px;
   height: auto !important;
-  background-color: #3fbfa8;
+  background-color: #ffffff;
   background-position: center top;
   background-repeat: repeat;
-  background-image: url("images/css/wrapper-bg-x.jpg");
+  background-image: url("images/css/footer-bg-x.jpg");
   border-top: none;
 }
 
@@ -483,11 +483,12 @@ html {
 }
 
 #hmenu {
+  color: #3fbfa8;
   height: 40px;
   font-family: arial;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 14px;
   position: relative;
   display: inline-block;
   border-radius: 0px;
@@ -529,7 +530,7 @@ html {
 
 #hmenu li a:link,
 #hmenu li a:visited {
-  color: #dff2f0;
+  color: #3fbfa8;
 }
 
 #hmenu ul li a:hover,
@@ -556,7 +557,7 @@ html {
   height: 450px;
   background-position: center top;
   background-color: transparent;
-  background-image: url("images/css/banner-bg.jpg");
+  background-image: url("images/css/banner-bg2.png");
   background-repeat: no-repeat;
   overflow: hidden;
   border-radius: 0px 0px 0 0;
@@ -573,11 +574,11 @@ html {
 #tagline h1 a:link,
 #tagline h1 a:visited {
   font-family: "Open Sans", sans-serif;
-  color: #0052d6;
+  color: #3fbfa8;
   font-size: 52px;
   font-weight: 300;
   font-style: normal;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -594,7 +595,7 @@ html {
 #tagline h2 a:link,
 #tagline h2 a:visited {
   font-family: "Dosis", sans-serif;
-  color: #000089;
+  color: #e9a2f2;
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
