@@ -135,7 +135,7 @@ body, html {
   font-size: 30px;
 }
 
-.circle1, .circle2, .circle3, .circle4 {
+.circle1, .circle2, .circle3, .circle4  {
     width: 30px;
     height: 30px;
     border-radius: 50%;
