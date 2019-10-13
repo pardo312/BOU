@@ -134,3 +134,28 @@ body, html {
   margin-left: 75px;
   font-size: 30px;
 }
+
+.circle1, .circle2, .circle3, .circle4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.circle1{
+background: #e9a2f2;
+}
+
+.circle2{
+background: #434bd9;
+}
+
+.circle3{
+background: #3fbfa8;
+}
+
+.circle4{
+background: #f2e41d;
+}
