@@ -159,3 +159,12 @@ background: #3fbfa8;
 .circle4{
 background: #f2e41d;
 }
+
+.bolita{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
