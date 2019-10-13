@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 
 <html lang="en"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <head> 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -50,67 +56,68 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="wrapper"> 
-      <div class="bg"></div>  
-      <div class="row"> 
-        <header id="container-top"> 
-          <div id="logo"></div>  
-          <nav> 
-            <div id="hmenu"> 
-              <ul> 
-                <li> 
-                  <a href="home.html">Home</a> 
-                </li>  
-                <li> 
-                  <a href="descargas.html">Descargas</a> 
-                </li> 
-                <li> 
-                    <a href="empresas.html">Empresas</a> 
-                  </li>  
-                <li> 
-                  <a href="aboutUs.html">Acerca de nosotros</a> 
-                </li>      
-              </ul> 
-            </div> 
-          </nav>  
-          <div class="clear"></div> 
-        </header> 
-      </div>  
-      <div class="row"> 
-        <div id="container" class="pie"> 
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+      </div>
 
+    <!-- Navbar (sit on top) -->
+<div class="w3-top barrita">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="aboutUs.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
+      <a href="descargas.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-arrow-circle-down"></i> DESCARGAS</a>
+      <a href="empresas.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> EMPRESAS</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black">
+        <i class="fa fa-search"></i>
+      </a>
+    </div>
   
-          <div id="page" class="home"> 
-            <div id="main"> 
-              <section class="home"> 
-			  
-			  
-							
-                  
-                   <center><h1>Oops...</h1> </center> 
-							 
-            
-                  
-                   
-							
-<img src="images/mantenimiento.png" style="width:100%">
-  
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="aboutUs.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="descargas.html" class="w3-bar-item w3-button" onclick="toggleFunction()">DESCARGAS</a>
+      <a href="empresas.html" class="w3-bar-item w3-button" onclick="toggleFunction()">EMPRESAS</a>
+    </div>
+  </div>
 
-                     
- 
-                     <div >
-						<div><br></br></div>
-                   </div> 
-                </div>  
+  <div class="w3-content w3-container w3-padding-64">
 
-              </section> 
-            </div>  
-        </div> 
-      </div>  
-	    
-      <div class="row"> 
-        <div id="container-bottom"></div> 
-      </div> 
-    </div> 
+  <center><h1>Oops...</h1></center> 
+  <img src="images/mantenimiento.png" style="width:100%">
+
+</div>
+
+
+
+  <script>
+
+      // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+    
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
   </body> 
 </html>
