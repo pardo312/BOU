@@ -1,125 +1,226 @@
 <!DOCTYPE html>
+<!--Comentario muy random de preuba-->
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
 
-<html lang="en"> 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <head> 
+  <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K96ZD72');</script>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K96ZD72");
+    </script>
     <!-- End Google Tag Manager -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149775213-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-149775213-1"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'UA-149775213-1');
-    </script>
-    <meta charset="utf-8" />  
-   
-    <title>BOU</title>  
-      
-    <link id="theme" rel="stylesheet" type="text/css" href="style.css" title="theme" />  
-    <link id="theme" rel="stylesheet" type="text/css" href="bootstrap-iso.css" title="theme" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300|Dosis|Open+Sans+Condensed:700|Open+Sans+Condensed:300|Open+Sans+Condensed:300|Open+Sans+Condensed:300" type="text/css" />  
-	
-   
-  </head>  
-  <body> 
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K96ZD72"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      gtag("config", "UA-149775213-1");
+    </script>
+    <meta charset="utf-8" />
+
+    <title>BOU</title>
+
+    <link
+      id="theme"
+      rel="stylesheet"
+      type="text/css"
+      href="style.css"
+      title="theme"
+    />
+    <link
+      id="theme"
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap-iso.css"
+      title="theme"
+    />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Open+Sans:300|Dosis|Open+Sans+Condensed:700|Open+Sans+Condensed:300|Open+Sans+Condensed:300|Open+Sans+Condensed:300"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K96ZD72"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <div class="icon-bar w3-hide-small">
-      <a href="https://web.facebook.com/bousolution/" class="facebook"><i class="fa fa-facebook"></i></a> 
-      <a href="https://www.instagram.com/bousolution/" class="instagram"><i class="fa fa-instagram"></i></a> 
-      <a href="https://www.youtube.com/channel/UClxX6A2c0IUHu7UgT7QW1Gg?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+      <a href="https://web.facebook.com/bousolution/" class="facebook"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/bousolution/" class="instagram"
+        ><i class="fa fa-instagram"></i
+      ></a>
+      <a
+        href="https://www.youtube.com/channel/UClxX6A2c0IUHu7UgT7QW1Gg?view_as=subscriber"
+        class="youtube"
+        ><i class="fa fa-youtube"></i
+      ></a>
     </div>
-    
- <!-- Navbar (sit on top) -->
- <div class="w3-top barrita">
-    <div class="w3-bar" id="myNavbar">
-      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-        <i class="fa fa-bars"></i>
-      </a>
-      <a href="index.html" class="w3-bar-item w3-button">HOME</a>
-      <a href="aboutUs.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
-      <a href="descargas.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-arrow-circle-down"></i> DESCARGAS</a>
-      <a href="empresas.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> EMPRESAS</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black">
-        <i class="fa fa-search"></i>
-      </a>
-    </div>
-  
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-      <a href="aboutUs.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="descargas.html" class="w3-bar-item w3-button" onclick="toggleFunction()">DESCARGAS</a>
-      <a href="empresas.html" class="w3-bar-item w3-button" onclick="toggleFunction()">EMPRESAS</a>
-    </div>
-  </div>
 
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top barrita">
+      <div class="w3-bar" id="myNavbar">
+        <a
+          class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="aboutUs.html" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-user"></i>ABOUT</a
+        >
+        <a href="descargas.html" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-arrow-circle-down"></i> DESCARGAS</a
+        >
+        <a href="empresas.html" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-envelope"></i> EMPRESAS</a
+        >
+        <a
+          href="#"
+          class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black"
+        >
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
 
-  <div class="imagenAboutUs w3-display-container w3-opacity-min" id="home">
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"
+      >
+        <a
+          href="aboutUs.html"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >ABOUT</a
+        >
+        <a
+          href="descargas.html"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >DESCARGAS</a
+        >
+        <a
+          href="empresas.html"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >EMPRESAS</a
+        >
+      </div>
+    </div>
+
+    <div class="imagenAboutUs w3-display-container w3-opacity-min" id="home">
       <div class="w3-display-middle" style="white-space:nowrap;">
-        <span class="bloque1 w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity">SOBRE NOSOTROS</span>
+        <span
+          class="bloque1 w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity"
+          >SOBRE NOSOTROS</span
+        >
       </div>
-  </div>
-  <div class="w3-content w3-container w3-padding-64">
-
-  <div class="w3-row">
-      <div class="w3-col m6 w3-center w3-padding-large">
-        <p><b><i class="fa fa-user w3-margin-right"></i>¿Quiénes somos?</b></p><br>
-        <p>BOU es un grupo conformado por 5 estudiantes de ingeniería de sistemas 
-            que ha decidido sacar adelante esta idea. BOU está conformado por Isabela Sarmiento, 
-            Allan Corinaldi, Gabriel Cubillos, Daniella Arteaga y Daniel Pardo.</p>
-      </div>
-  
-      <div class="w3-col m6 w3-center w3-padding-large">
-          <p><b><i class="fa fa-gratipay w3-margin-right"></i>¿Por qué confiamos en nuestro proyecto?</b></p><br>
-          <p>Confiamos en el proyecto precisamente porque confiamos en nuestro objetivo. Queremos brindarles a las personas la posibilidad de invertir su
-              tiempo en lo que en verdad les importa; no que lo pierdan esperando en una fila. También queremos ayudar a las tiendas que compartan nuestro
-              propósito y quieran eliminar las filas para brindarles a sus clientes la mejor experiencia posible. Considermos por lo tanto  que
-              estamos ofrenciendo una solución valiosa que beneficia tanto a la tienda como a su cliente.
-            </div>
     </div>
-  </div>
-  <!--cositas chebres-->
+    <div class="w3-content w3-container w3-padding-64">
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b><i class="fa fa-user w3-margin-right"></i>¿Quiénes somos?</b>
+          </p>
+          <br />
+          <p>
+            BOU es un grupo conformado por 5 estudiantes de ingeniería de
+            sistemas que ha decidido sacar adelante esta idea. BOU está
+            conformado por Isabela Sarmiento, Allan Corinaldi, Gabriel Cubillos,
+            Daniella Arteaga y Daniel Pardo.
+          </p>
+        </div>
 
-  <script>
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b
+              ><i class="fa fa-gratipay w3-margin-right"></i>¿Por qué confiamos
+              en nuestro proyecto?</b
+            >
+          </p>
+          <br />
+          <p>
+            Confiamos en el proyecto precisamente porque confiamos en nuestro
+            objetivo. Queremos brindarles a las personas la posibilidad de
+            invertir su tiempo en lo que en verdad les importa; no que lo
+            pierdan esperando en una fila. También queremos ayudar a las tiendas
+            que compartan nuestro propósito y quieran eliminar las filas para
+            brindarles a sus clientes la mejor experiencia posible. Considermos
+            por lo tanto que estamos ofrenciendo una solución valiosa que
+            beneficia tanto a la tienda como a su cliente.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--cositas chebres-->
 
+    <script>
       // Change style of navbar on scroll
-    window.onscroll = function() {myFunction()};
-    function myFunction() {
+      window.onscroll = function() {
+        myFunction();
+      };
+      function myFunction() {
         var navbar = document.getElementById("myNavbar");
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          navbar.className =
+            "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
         } else {
-            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+          navbar.className = navbar.className.replace(
+            " w3-card w3-animate-top w3-white",
+            ""
+          );
         }
-    }
-    
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function toggleFunction() {
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
         var x = document.getElementById("navDemo");
         if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
+          x.className += " w3-show";
         } else {
-            x.className = x.className.replace(" w3-show", "");
+          x.className = x.className.replace(" w3-show", "");
         }
-    }
+      }
     </script>
-  </body> 
+  </body>
 </html>
